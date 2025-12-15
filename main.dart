@@ -6,9 +6,6 @@ void bash(String file) {
   });
 }
 
-void push() => bash("backup.sh");
-void pull() => bash("restore.sh");
-
 void main() {
   bash('restore.sh');
 }
